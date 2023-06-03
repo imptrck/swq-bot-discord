@@ -1,16 +1,12 @@
-# Discord Bot
-
-This is a Discord bot built using Python that crawls a website for codes and publishes them to subscribed channels on multiple servers. It utilizes the Discord.py library for interacting with the Discord API and Selenium for web scraping.
-
 ## Description
 
-The Discord bot periodically crawls a specified website, extracts codes from it, and publishes them to subscribed channels on different Discord servers. It keeps track of existing codes and only publishes new codes found during each crawl. Users can also interact with the bot to retrieve the latest code or a list of the last 10 codes.
+The Discord bot periodically crawls a specified website, extracts codes from it, and publishes them to subscribed channels on different Discord servers. It keeps track of existing codes and only publishes new codes found during each crawl. Users can also interact with the bot to retrieve the latest code or a list of the last 10 codes. It gets it's code from swq.jp.
 
 ## Usage
 
 1. Clone the repository and install the necessary dependencies:
 
-    git clone https://github.com/your-repository.git
+    git clone [https://github.com/your-repository.git](https://github.com/imptrck/swq-bot-discord.git)
     cd discord-bot
     pip install -r requirements.txt
     
@@ -19,12 +15,12 @@ The Discord bot periodically crawls a specified website, extracts codes from it,
 - Copy the bot token.
 
 3. Configure the bot:
-- Open `config.py` and replace `'your_discord_token_here'` with your Discord bot token.
+- Set `DISCORD_TOKEN` with your Discord bot token in your environment variable.
 - Set the `CHROME_DRIVER_PATH` constant to the path where your ChromeDriver executable is located.
 
 4. Start the bot:
 
-    python bot.py
+    python main.py
 
 
 5. Add the bot to your Discord server:
