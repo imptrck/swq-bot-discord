@@ -6,7 +6,7 @@ The Discord bot periodically crawls a specified website, extracts codes from it,
 
 1. Clone the repository and install the necessary dependencies:
 
-    git clone [https://github.com/your-repository.git](https://github.com/imptrck/swq-bot-discord.git)
+    git clone [https://github.com/imptrck/swq-bot-discord.git](https://github.com/imptrck/swq-bot-discord.git)
     cd discord-bot
     pip install -r requirements.txt
     
