@@ -11,30 +11,30 @@ The Discord bot periodically crawls a specified website, extracts codes from it,
     - pip install -r requirements.txt
     
 2. Obtain a Discord bot token:
-- Create a new bot application on the Discord Developer Portal.
-- Copy the bot token.
+    - Create a new bot application on the Discord Developer Portal.
+    - Copy the bot token.
 
 3. Configure the bot:
-- Set `DISCORD_TOKEN` with your Discord bot token in your environment variable.
-- Set the `CHROME_DRIVER_PATH` constant to the path where your ChromeDriver executable is located.
+    - Set `DISCORD_TOKEN` with your Discord bot token in your environment variable.
+    - Set the `CHROME_DRIVER_PATH` constant to the path where your ChromeDriver executable is located.
 
 4. Start the bot:
 
-    python main.py
+    - python main.py
 
 
 5. Add the bot to your Discord server:
-- Create a new Discord server or choose an existing one.
-- Visit the Discord Developer Portal and navigate to your bot application.
-- Generate an OAuth2 URL with the necessary permissions (bot and message content).
-- Open the URL in your web browser and authorize the bot to join your server.
+    - Create a new Discord server or choose an existing one.
+    - Visit the Discord Developer Portal and navigate to your bot application.
+    - Generate an OAuth2 URL with the necessary permissions (bot and message content).
+    - Open the URL in your web browser and authorize the bot to join your server.
 
 6. Interact with the bot:
-- Use the following commands in any channel where the bot is present:
-  - `/last_code`: Retrieves the latest code.
-  - `/last_10_codes`: Retrieves a list of the last 10 codes.
-  - `/start_swqbot`: Starts the crawler to publish codes to the current channel.
-  - `/stop_swqbot`: Stops the crawler from publishing codes.
+    - Use the following commands in any channel where the bot is present:
+      - `/last_code`: Retrieves the latest code.
+      - `/last_10_codes`: Retrieves a list of the last 10 codes.
+      - `/start_swqbot`: Starts the crawler to publish codes to the current channel.
+      - `/stop_swqbot`: Stops the crawler from publishing codes.
 
 
 ## Contributing
