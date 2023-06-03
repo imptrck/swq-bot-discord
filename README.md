@@ -49,5 +49,24 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 This project is licensed under the MIT License. Feel free to modify and customize the README.md according to your needs, adding more detailed instructions or any other relevant information.
 
+## Terms of Service
+
+Usage
+The bot is provided for informational purposes only. The accuracy, completeness, and reliability of the information displayed by the bot are not guaranteed.
+
+You understand and acknowledge that the bot retrieves data from external sources, such as the swq.jp website, and may be subject to errors, delays, or interruptions. The bot developer is not responsible for any inaccuracies or disruptions in the data provided.
+
+The bot is not affiliated with, endorsed, or sponsored by Com2uS Corp., the developer of Summoners War, or swq.jp. The bot developer is an independent entity providing a service to enhance the gaming experience but assumes no liability for any issues arising from the use of the bot.
+
+The bot may collect and store certain user data, such as server and channel information, for the purpose of delivering the intended functionality. The bot developer respects user privacy and will handle any collected data in accordance with applicable privacy laws.
+
+The bot developer shall not be liable for any direct, indirect, incidental, consequential, or exemplary damages arising out of or in connection with the use or performance of the bot, including but not limited to damages for loss of data, revenue, or profit.
+
+The bot developer shall not be responsible for any actions taken by users based on the information provided by the bot. Users are solely responsible for their own actions and decisions.
+
+The bot developer reserves the right to modify or discontinue the bot or any of its features at any time without prior notice.
+
+The bot developer reserves the right to update these Terms of Service at any time. By continuing to use the bot after any modifications, you agree to be bound by the updated terms.
+
 
 
