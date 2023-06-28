@@ -5,8 +5,15 @@ This Discord bot is specifically designed for Summoners War players who want to 
 The SWQ Code Tracking Discord bot simplifies the code tracking process for Summoners War players by automating the collection and distribution of codes from the SWQ website. With this bot, you can easily stay up to date with the latest codes and make sure you never miss out on any rewards.
 
 The bot periodically crawls the SWQ website, captures new codes, and sends them to subscribed channels on different Discord servers. It keeps track of the existing codes to avoid duplicate notifications and provides commands for users to retrieve the latest code or view a list of the last 10 codes.
+## Normal Usage
 
-## Usage
+1. Invite the bot to your server: https://discord.com/oauth2/authorize?client_id=1114164364447056005&permissions=0&scope=bot%20applications.commands
+   
+2. Use the following commands in any channel where the bot is present:
+      - `/last_code`: Retrieves the latest code.
+      - `/last_10_codes`: Retrieves a list of the last 10 codes.
+      - `/start_swqbot`: Starts the crawler to publish codes to the current channel.
+      - `/stop_swqbot`: Stops the crawler from publishing codes.
 
 1. Clone the repository and install the necessary dependencies:
 
